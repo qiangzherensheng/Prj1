@@ -61,7 +61,7 @@
   </tr>
 </table>
 </c:forEach>
-<!-- 我的知识条目了-->
+<!-- 我的知识条目-->
  </div>
  </div>
 <div class="space3"></div>
