@@ -1,0 +1,79 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<!-- 定义标签库的版本 -->
+	<tlib-version>1.0</tlib-version>
+
+	<!-- 标签库的默认短名 -->
+	<short-name>CustomPageTag</short-name>
+
+	<!-- 定义标签库的uri相当于taglib的id -->
+	<uri>http://www.sentu.cn/pagetag</uri>
+
+	<!-- 定义第二个标签 带属性 -->
+	<tag>
+		<description>分页标签</description>
+
+		<!-- 标签名 -->
+		<name>pageTag</name>
+
+		<!-- 标签的处理类 -->
+		<tag-class>bj.tags.PageTag</tag-class>
+
+		<!-- 标签体内容为空-->
+		<body-content>empty</body-content>
+
+		<!-- 配置标签pageIndex属性 -->
+		<attribute>
+			<!-- 属性名 -->
+			<name>pageIndex</name>
+			<!-- 是否为必须属性 -->
+			<required>true</required>
+			<!--  是否支持jsp脚本，表达式等动态内容 -->
+			<fragment>true</fragment>
+		</attribute>
+
+		<!-- 配置recordCount属性 -->
+		<attribute>
+			<name>recordCount</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+
+		<!-- 配置pageCount -->
+		<attribute>
+			<name>pageCount</name>
+			<required>false</required>
+			<fragment>true</fragment>
+		</attribute>
+
+		<!-- 配置actionName -->
+		<attribute>
+			<name>actionName</name>
+			<required>true</required>
+			<fragment>true</fragment>
+		</attribute>
+
+		<!-- 配置pageSize -->
+		<attribute>
+			<name>pageSize</name>
+			<required>false</required>
+			<fragment>true</fragment>
+		</attribute>
+		
+		<!-- 配置className -->
+		<attribute>
+			<name>className</name>
+			<required>false</required>
+			<fragment>true</fragment>
+		</attribute>
+		<!-- 配置classText -->
+		<attribute>
+			<name>classText</name>
+			<required>false</required>
+			<fragment>true</fragment>
+		</attribute>
+		<!-- 配置condition -->
+	</tag>
+</taglib>

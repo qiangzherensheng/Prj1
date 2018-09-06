@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0px; padding:0px;border:0px;}
+div{ overflow: hidden;}
+a{ text-decoration:none;font-size:14px; color:red; }
+a:hover{ font-size:14px; color:#333; text-decoration:none;}
+#regbd{ margin:0px;background-color:#f8f8f8;}
+#logbd{ margin:0px; background-color:#00aaef;}
+/*注册界面*/
+#space1{ height:50px;}
+#space{ height:60px;}
+#containerreg{	width: 960px;height: 500px;margin: 0 auto;background-color: #FFF;border: 1px solid #f0f0f0;}
+	.input_text{ width:250px; height: 30px; font-size:16px; line-height:30px; color:black;border: 2px solid #CCC;}
+	.input_text1{ width:250px; height: 30px; font-size:16px; line-height:30px; color:black;border: 2px solid blue;}
+	.messageStyle{color:red; font-size:12px;}
+	#logtb1{ background-image:url(../images/login-bg.jpg);width:865px; height:530px;}
+   .log_input{ height:30px; width:260px;line-height:30px; font-size:16px; color:black; background-repeat:no-repeat; background-position:5px 7px; border:2px solid #CCC; padding-left:20px;}
+   .log_input1{height:30px; width:70px;line-height:30px; font-size:16px; color:black; background-repeat:no-repeat; background-position:5px 7px; border:2px solid #CCC; padding-left:20px;}
+   #userName{ background-image:url(../images/login-text-bg1.png); }
+   #passWord{ background-image:url(../images/login-text-bg2.png); }
+   /*顶部*/
+   .head_input{ height:33px; width:200px; border: 1px solid #999; font-size:16px; line-height:33px; color:#999;}
+ .header{ width:100%; height:50px;background-color:#333333;}
+   .head_container{ width:1150px; height:50px; margin: 0 auto;}
+   a.nav{ text-decoration:none; color:#FFF; font-size:16px; font-family:微软雅黑;}
+   a.nav:link{ color: #FFF; font-size:16px; font-family:微软雅黑;}
+   a.nav:visited{color: #FFF; font-size:16px; font-family:微软雅黑;}
+   a.nav:hover{color: #06F; font-size:16px; font-family:微软雅黑;}
+   #head_ads{ background-image:url(../images/banner.png); width:100%; height:165px; background-repeat: repeat-x; font-size:30px; font-family:微软雅黑; line-height:165px; text-align:center; color:#FFF;}
+  /*左边部分*/
+  .left_container{ width:200px; height:450px;}
+   .nickname{ font-size:16px; font-family:微软雅黑; color:#000;}
+   a.left_nav{ text-decoration: none; color: #000; font-size:16px; font-family:微软雅黑;}
+   a.left_nav:link{text-decoration: none; color: #906; font-size:16px; font-family:微软雅黑;}
+   a.left_nav:visited{text-decoration: none; color: #00F; font-size:16px; font-family:微软雅黑;}
+   a.left_nav:hover{text-decoration: none; color: #00F; font-size:16px; font-family:微软雅黑;}
+   /*主页面*/
+   .space3{ height:30px;}
+   .container{ width:1150px; margin:0 auto;}
+   #left{float:left; border: 1px solid #999; background-color:#FFF; width:202px; height:450px;}
+   #right{ width: 930px; height:auto; background-color: #FFF; float: right;border: 1px solid #d5d7d8;}   
+   .index{ background-color: #edf1f5;}
+   /*添加知识*/
+   .addk{ width:500px; height:30px; font-size:16px; line-height:30px; font-family:微软雅黑; color:#000; border: 2px solid #999;}
+   .addk1{ width:600px; height:300px; border: 2px solid #666; font-size:16px; font-family:微软雅黑; }
+   .submit{ width:100px; height:40px; font-size:20px; font-family:微软雅黑; color:#30F;}
+   .textarea{width:400px; height:200px; font-size:20px; font-family:微软雅黑; color:#30F; border: 2px solid #999;}
